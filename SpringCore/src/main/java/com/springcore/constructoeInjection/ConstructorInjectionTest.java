@@ -9,8 +9,11 @@ public class ConstructorInjectionTest {
 		
 		ApplicationContext context = new ClassPathXmlApplicationContext("com/springcore/constructoeInjection/ciconfig.xml");
 		
-		Person p1= (Person)context.getBean("person1");
-		System.out.println(p1);
+//		Person p1= (Person)context.getBean("person1");
+//		System.out.println(p1);
+		
+		Addition addition= (Addition)context.getBean("addition");
+		System.out.println(addition);
 	}
 
 }
