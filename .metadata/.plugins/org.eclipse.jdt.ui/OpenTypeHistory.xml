@@ -1,2 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<typeInfoHistroy/>
+<typeInfoHistroy>
+    <typeInfo handle="=SpringCore/C:\/Users\/TEJAS\/.p2\/pool\/plugins\/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_19.0.1.v20221102-1007\/jre\/lib\/jrt-fs.jar`java.base=/javadoc_location=/https:\/\/docs.oracle.com\/en\/java\/javase\/19\/docs\/api\/=/=/maven.pomderived=/true=/&lt;java.lang(Math.class[Math" modifiers="49" timestamp="1667364024000"/>
+    <typeInfo handle="=SpringJdbc/C:\/Users\/TEJAS\/.m2\/repository\/org\/springframework\/spring-jdbc\/5.3.14\/spring-jdbc-5.3.14.jar=/maven.pomderived=/true=/=/maven.groupId=/org.springframework=/=/maven.artifactId=/spring-jdbc=/=/maven.version=/5.3.14=/=/maven.scope=/compile=/=/maven.pomderived=/true=/&lt;org.springframework.jdbc.datasource(DriverManagerDataSource.class[DriverManagerDataSource" modifiers="33" timestamp="1692786789254"/>
+    <typeInfo handle="=SpringJdbc/C:\/Users\/TEJAS\/.m2\/repository\/org\/springframework\/spring-jdbc\/5.3.14\/spring-jdbc-5.3.14.jar=/maven.pomderived=/true=/=/maven.groupId=/org.springframework=/=/maven.artifactId=/spring-jdbc=/=/maven.version=/5.3.14=/=/maven.scope=/compile=/=/maven.pomderived=/true=/&lt;org.springframework.jdbc.core(JdbcTemplate.class[JdbcTemplate" modifiers="33" timestamp="1692786789254"/>
+</typeInfoHistroy>

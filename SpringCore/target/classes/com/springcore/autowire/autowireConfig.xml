@@ -12,8 +12,10 @@
 
 	<bean class="com.springcore.autowire.Address" name="address" p:city="Sinnar" p:street="Shirdi Road"/>
 	
+	<!-- <bean class="com.springcore.autowire.Address" name="address" p:city="Nashik" p:street="Nashik Road"/> -->
+	
 	<!-- Autowiring using byName -->
-	<bean class="com.springcore.autowire.Emp" name="emp1" autowire="byName" /> 
+	<bean class="com.springcore.autowire.Emp" name="emp1" autowire="byName" />
 	
 	<!-- Autowiring using byType -->	
 	<!-- <bean class="com.springcore.autowire.Emp" name="emp1" autowire="byType" />  -->

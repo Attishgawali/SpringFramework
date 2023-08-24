@@ -43,6 +43,4 @@
 	<bean class="com.springcore.primitivetype.Student" name="student3"
 		p:studentId="203" p:studentName="Manali" p:studentAddress="Nashik" />
 
-
-
 </beans>

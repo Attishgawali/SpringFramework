@@ -11,8 +11,8 @@ public class Test3 {
 		//registering shutdown hook
 		context.registerShutdownHook();
 				
-		Book b1= (Book)context.getBean("book1");
-		System.out.println(b1);
+//		Book b1= (Book)context.getBean("book1");
+//		System.out.println(b1);
 		
 		
 		Car c = (Car) context.getBean("car1");

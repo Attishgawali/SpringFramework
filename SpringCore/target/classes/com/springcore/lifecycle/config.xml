@@ -9,8 +9,8 @@
  http://www.springframework.org/schema/context/spring-context.xsd">
 
 
-	<bean name="book1" class="com.springcore.lifecycle.Book" p:bookid="201" p:bookName="Math"
-			 init-method="init" destroy-method="destroy"/>
+	<!-- <bean name="book1" class="com.springcore.lifecycle.Book" p:bookid="201" p:bookName="Math"
+			 init-method="init" destroy-method="destroy"/> -->
 			 
 	<bean name="car1" class="com.springcore.lifecycle.Car" p:price="2300" />
 

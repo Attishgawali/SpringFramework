@@ -35,8 +35,8 @@
 	<bean name="person1" class="com.springcore.constructoeInjection.Person" c:id="101" c:name="Tejas" c:certi-ref="certi1"/>
 	
 	<bean name="addition" class="com.springcore.constructoeInjection.Addition">
-		<constructor-arg value="12" type="int" index="1"/>
-		<constructor-arg value="24" type="int" index="0"/>
+		<constructor-arg value="12" type="double" index="1"/>
+		<constructor-arg value="24" type="double" index="0"/>
 	</bean>
 
 

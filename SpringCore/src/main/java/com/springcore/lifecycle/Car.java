@@ -34,12 +34,14 @@ public class Car implements InitializingBean,DisposableBean {
 
 	public void afterPropertiesSet() throws Exception {
 		// this init method
+		// this method implementing InitializingBean
 		System.out.println("Connection to car server ....");
 		
 	}
 
 	public void destroy() throws Exception {
 		// this is destroy method
+		// this method implementing DisposableBean
 		System.out.println("Cleaning up car resources ...");
 		
 	}
