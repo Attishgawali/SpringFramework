@@ -5,6 +5,7 @@ import java.util.List;
 
 import javax.transaction.Transactional;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.orm.hibernate5.HibernateTemplate;
 
 import com.springorm.entity.Student;
@@ -12,10 +13,10 @@ import com.springorm.entity.Student;
 
 public class StudentDaoImpl implements StudentDao{
 	
+	@Autowired
 	private HibernateTemplate hibernateTemplate;
 	
-	
-	
+
 	public HibernateTemplate getHibernateTemplate() {
 		return hibernateTemplate;
 	}
