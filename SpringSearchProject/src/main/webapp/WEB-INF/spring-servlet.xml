@@ -2,6 +2,7 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
 	xmlns:context="http://www.springframework.org/schema/context"
 	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
 	xmlns:tx="http://www.springframework.org/schema/tx"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans
@@ -9,16 +10,35 @@
  http://www.springframework.org/schema/context
  http://www.springframework.org/schema/context/spring-context.xsd
   http://www.springframework.org/schema/tx
- http://www.springframework.org/schema/tx/spring-tx.xsd">
+ http://www.springframework.org/schema/tx/spring-tx.xsd
+ http://www.springframework.org/schema/mvc
+ http://www.springframework.org/schema/mvc/spring-mvc.xsd">
  
 
  
  <context:component-scan base-package="com.springSearch"/>
+ 
+  
+ <mvc:annotation-driven/>
+ <mvc:resources location="/WEB-INF/resources/" mapping="/resources/**" />
 
 	<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver" name="viewResolver">
 		<property name="prefix" value="/WEB-INF/views/" />
 		<property name="suffix" value=".jsp"/>
 	</bean>
 	<!-- e.g /WEN-INF/views/hello.jsp -->
+	
+	
+	
+	<!-- Configuring multipart resolver -->
+	<bean name="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver "></bean>
+	
+	<mvc:interceptors>
+		<mvc:interceptor>
+			<mvc:mapping path="/**"/>
+			<bean class="com.springSearch.controller.MyInterceptor"></bean>
+		</mvc:interceptor>
+	</mvc:interceptors>
+	
 	
 </beans>

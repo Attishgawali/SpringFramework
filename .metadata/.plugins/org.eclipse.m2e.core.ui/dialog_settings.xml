@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="E:\Coding journey\Spring\SpringORM"/>
 			<item value="E:\Coding journey\Spring\SpringMVC"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -26,6 +27,7 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.productcrud"/>
 			<item value="com.springSearch"/>
 			<item value="com.springmvc"/>
 			<item value="com.springorm"/>
@@ -33,6 +35,7 @@
 			<item value="com.springcore"/>
 		</list>
 		<list key="groupId">
+			<item value="com.productcrud"/>
 			<item value="com.springSearch"/>
 			<item value="com.springmvc"/>
 			<item value="com.springorm"/>
@@ -40,6 +43,7 @@
 			<item value="com.springcore"/>
 		</list>
 		<list key="artifactId">
+			<item value="ProductCrudApp"/>
 			<item value="SpringSearchProject"/>
 			<item value="SpringMVC"/>
 			<item value="SpringORM"/>
